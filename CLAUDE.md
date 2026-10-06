@@ -44,10 +44,10 @@ de las [hora] del [fecha]. Fuente: Nexus PJ [URL].` Nunca citar de memoria.
 - `[sin verificar en web]`: no localizado. Va ANTES de la cita, o no se cita.
 
 ## 6. Registro
-Cada verificación se guarda en
-`/JMS/CASOS ACTIVOS/[Exp]/Normativa Verificada/[norma].md` con norma, URL,
-fecha/hora de consulta y nivel de verificación, y se añade al log de
-`/topics/base-datos-legal-cr-verificada.md`.
+Cada verificación se guarda en `normativa-verificada/[norma].md` (usar
+`normativa-verificada/_PLANTILLA.md`) con norma, URL, fecha/hora de consulta y
+nivel de verificación, y se añade una línea a `normativa-verificada/LOG.md`.
+Nunca incluir nombres de clientes ni datos de expedientes en estos archivos.
 
 ## 7. Requisito de red del entorno
 El entorno en la nube debe permitir los dominios de la sección 2
